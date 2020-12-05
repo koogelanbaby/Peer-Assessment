@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(cover.png);
+    background-size: cover;
+}
+
+.transparent{
+    padding: 18px;
+    width: 97.5%;
+    overflow: hidden;
+    background-color: rgb(0,0,0,0.4);
+}
+
+.transparent li{
+    list-style: none;
+    display: inline;
+}
+
+.transparent li a{
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all .5s ease-in;
+}
+
+.transparent li a:hover{
+    background-color: crimson;
+}
+
+.asses
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 58%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.asses input[type="text"]
+{
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0367fd;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.asses1
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 40%;
+    right: 3%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+
+.btn input[type="submit"]
+{
+    border: 0;
+   
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc0c0;
+    padding: 14px 35px;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.btn input[type="submit"]:hover
+{
+    background: #ffc0c0;
+}
+
+.box{
+    width: 200px;
+    padding: 40px;
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+}
+

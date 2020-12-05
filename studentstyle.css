@@ -1,0 +1,48 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(cover.png);
+    background-size: cover;   
+}
+
+.log
+{
+    position: absolute;
+    width: 65px;
+    padding: 10px;
+    top: 4%;
+    right: 5%;
+    background: #bdc3c7;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.transparent{
+    padding: 18px;
+    width: 97.5%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.transparent li{
+    list-style: none;
+    display: inline;
+}
+
+.transparent li a{
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all .5s ease-in;
+}
+.transparent li a:hover{
+    background-color: crimson;
+}
+

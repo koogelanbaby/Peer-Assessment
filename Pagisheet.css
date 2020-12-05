@@ -1,0 +1,99 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(cover.png);
+    background-size: cover;
+}
+
+.searchbox
+{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    transform: translate(-50%,-50%);
+    background: #2c3e50;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.searchbox:hover >.searchtxt
+{
+    width: 150px;
+    padding: 0 6px;
+}
+
+.searchbtn
+{
+    color: #7f8c8d;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #2c3e50;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.searchbox:hover > .searchbtn
+{
+    background: white;
+}
+
+.searchtxt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.square
+{
+    position: absolute;
+    width: 70px;
+    padding: 20px;
+    top: 10%;
+    left: 110%;
+    background: #bdc3c7;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+
+.transparent{
+    padding: 18px;
+    width: 97.5%;
+    overflow: hidden;
+    background-color: rgb(0,0,0,0.4);
+}
+
+.transparent li{
+    list-style: none;
+    display: inline;
+}
+
+.transparent li a{
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 16px;
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 1px;
+    transition: all .5s ease-in;
+}
+
+.transparent li a:hover{
+    background-color: crimson;
+}
+
